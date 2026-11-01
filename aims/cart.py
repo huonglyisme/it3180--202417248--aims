@@ -34,4 +34,12 @@ class Cart:
         for dvd in self.items:
             print(f"{dvd.title} - {dvd.cost} $")
 
+    def sort_by_title(self):
+        self.items.sort(key=lambda dvd: dvd.title.lower())
+
+
+    def sort_by_cost(self):
+        self.items.sort(key=lambda dvd: dvd.cost)
+
+
 
