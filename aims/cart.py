@@ -1,3 +1,4 @@
+
 MAX_NUMBERS_ORDERED = 20
 
 
@@ -25,3 +26,8 @@ class Cart:
 
     def total_cost(self):
         return sum(item.cost for item in self.items)
+
+    def print_cart(self):
+        for dvd in self.items:
+            print(f"{dvd.title} - {dvd.cost} $")
+
