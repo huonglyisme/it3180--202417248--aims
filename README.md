@@ -4,3 +4,4 @@
 
 - Sinh viên: Nguyễn Đỗ Hương Ly – MSSV 202417248
 - Chạy chương trình: `python main.py`
+- Requires Python 3.10 or newer.
