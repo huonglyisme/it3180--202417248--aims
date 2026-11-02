@@ -3,6 +3,11 @@
 All notable changes to AIMS-mini will be documented here.
 
 ## [Unreleased]
+## [1.0.1] - 2026-11-02
+
+### Fixed
+- Make search_by_title case-insensitive.
+- Fix searching for "lion" in "The Lion King".
 
 ## [1.0.0] - 2026-11-02
 
