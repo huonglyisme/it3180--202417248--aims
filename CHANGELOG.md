@@ -3,10 +3,12 @@
 All notable changes to AIMS-mini will be documented here.
 
 ## [Unreleased]
+
+## [1.1.0] - 2026-11-02
+
 ### Added
-- Add Cart.sort_by_title() for sorting DVDs by title.
-- Add Cart.sort_by_cost() for sorting DVDs by cost.
-- Add unit tests for cart sorting.
+- Search DVDs by category.
+- Sort DVDs by title and cost.
 
 ## [1.0.0] - 2026-11-02
 
